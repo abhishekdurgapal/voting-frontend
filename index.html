@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Page</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+        <h1>Vote for Your Favorite Candidate</h1>
+        <div class="vote-options">
+            <button class="vote-btn" onclick="vote('Candidate A')">Vote for Candidate A</button>
+            <button class="vote-btn" onclick="vote('Candidate B')">Vote for Candidate B</button>
+        </div>
+        <h2>Results</h2>
+        <p>Candidate A: <span id="votesA">0</span> votes</p>
+        <p>Candidate B: <span id="votesB">0</span> votes</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
